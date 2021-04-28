@@ -24,6 +24,30 @@ public class Main {
         lucho.setColor("white");
         lucho.setSpeed(55);
 
-        System.out.println(lucho);
+        Dog julieta = new Dog();
+        julieta.setName("Julieta");
+        julieta.setAge(5);
+        julieta.setBreed("Basset Hound");
+        julieta.setColor("white, dark and brown");
+        julieta.setSpeed(43);
+
+        System.out.println("The Dog's name is " + lucho.getName() + "\n" + lucho.getAge() + " years old\n" + "he/she are a " + lucho.getBreed() + "\n" + "he/she are " + lucho.getColor() + "\n" + "and run " + lucho.getSpeed() + " km p/h!\n");
+        System.out.println("The Dog's name is " + julieta.getName() + "\n" + julieta.getAge() + " years old\n" + "he/she are a " + julieta.getBreed() + "\n" + "he/she are " + julieta.getColor() + "\n" + "and run " + julieta.getSpeed() + " km p/h!\n");
+
+        Cat mimosa = new Cat();
+        mimosa.setName("Mimosa");
+        mimosa.setAge(8);
+        mimosa.setColor("white");
+        mimosa.setSmells(false); //porque é que n tive q criar um toSting para ficar direito??
+
+        Cat pikita = new Cat();
+        pikita.setName("Pikita");
+        pikita.setAge(2);
+        pikita.setColor("dark");
+        pikita.setSmells(true);
+
+        System.out.println("The Cat's name is " + mimosa.getName() + "\n" + mimosa.getAge() + " years old\n" + "he/she are " + mimosa.getColor() + "\n" + "smells good? " + mimosa.getSmells() + " !\n");
+        System.out.println("The Cat's name is " + pikita.getName() + "\n" + pikita.getAge() + " years old\n" + "he/she are " + pikita.getColor() + "\n" + "smells good? " + pikita.getSmells() + " !\n");
+
     }
 }
